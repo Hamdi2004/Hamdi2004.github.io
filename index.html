@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="de">
+
+
+<!--TO-LIST DO
+    dropdown beim Kontack liste
+    Header bigger text
+    ican photoshoppen
+    map einbauen
+    instagram einbauen
+    tel : anderen zum private
+    demi müne: 50%
+    grammatic
+    NEW SECTION: Über uns
+    -->
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Lucky's burger</title>
+  <meta name="title" content="Lucky's burger - Amazing & Delicious Burgers">
+  <meta name="author" content="This is a Restaurant html template made by codewithsadee and Edite by Hamdi Mhamdi">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="assets/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <img class="font" src="./Lucky Burger Icon font.png" width="400" height="800">
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+            Casterfeldstraße 108-120, 68199 Mannheim
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+            Di-Fr 11.00-14.00 Uhr und 17.00-22.00 Uhr Sa+So 15.00-22.00 Uhr
+        </span>
+      </div>
+
+      
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <a href="tel:+49 178 8162898">
+        <span class="span">+49 178 8162898</span>
+      
+      </a>
+
+      <div class="separator"></div>
+
+        <span class="span">info@luckys-burger.de</span>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="./index.html" class="logo">
+        <img src="Lucky Burger Icon.jpg" width="100" height="50">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="img">
+          <img class="logo" src="Lucky Burger Icon.jpg" width="100" height="50">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./Menu.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menu</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Über Uns</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">kontakt</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+
+          <address class="body-4">
+            Casterfeldstraße 108-120, <br>
+            68199 Mannheim
+          </address>
+
+          <p class="body-4 navbar-text">Öffnungszeiten:
+            Di-Fr 11.00-14.00 Uhr und 17.00-22.00 Uhr Sa+So 15.00-22.00 Uhr</p>
+
+        </div>
+
+      </nav>
+
+      <a href="https://lieferbaer.de/productListing/161" class="btn btn-secondary">
+        <span class="text text-1">Bestelle jetzt</span>
+
+        <span class="text text-2" aria-hidden="true">Bestelle jetzt
+            
+        </span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./media/Luckys Burger_El-Greco Burger müne.jpg" width="1440" height="750" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Top und lecker <br>
+              Burgers
+            </h1>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./media/burger.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Flavors Inspired by <br>
+              the Seasons
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="./Menu.html" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+<!---->
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Classic Dog.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Where every flavor <br>
+              tells a story
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+          </li>
+
+        </ul>
+
+
+      </section>
+     
+
+
+
+
+ 
+      <!-- 
+        - #SERVICE
+      
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Flavors For Royalty</p>
+
+          <h2 class="headline-1 section-title">We Offer Top Notch</h2>
+
+          <p class="section-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys
+            standard dummy text ever.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Breakfast</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Appetizers</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Drinks</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+    -->
+
+    <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Special Selection</p>
+
+         <h2 class="headline-1 section-subtitle text-center ">Burger Special's</h2>
+
+            <ul class="grid-list">
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 1; --height: 1;">
+                    <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Luckys Burger Menü.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">Luckys Burger</a>
+                      </h3>
+  
+                      <span class="span title-2">Einzelpreis: 10.90€ Menü: 16.40€
+
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Cheddar Käse, Rinderbacon und Karamellisierten Zwiebeln, Salat, Gewürzgurken und Tomaten
+                      
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 1; --height: 1;">
+                    <img src="./Media/Luckys Burger_Gorgonzola Burger Menü.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">Gorgonzola Burger</a>
+                      </h3>
+  
+                      <span class="span title-2">Einzelpreis: 10.90€ Menü: 16.40€
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Rucola und Karamellisierten Zwiebeln, Salat, Gewürzgurken und Tomaten
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 50px; --height: 50px;">
+                    <img src="./Media/Turkische Burger.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">Turkish Burger</a>
+                      </h3>
+  
+                      <span class="span title-2">Einzelpreis: 10.90€ Menü: 16.40€
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Knoblauchwurst, Cheddar Käse, Curryketchup, Salat, Gewürzgurken, Zwiebeln und Tomaten
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 50px; --height: 50px;">
+                    <img src="./Media/Luckys Burger_El-Greco Burger.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">El Greco Burger</a>
+                      </h3>
+  
+                      <span class="span title-2">Einzelpreis: 10.90€ Menü: 16.40€
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Hirtenkäse, Peperoni, Cremesauce, Salat, Gewürzgurken, Zwiebeln und Tomaten
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 50; --height: 50;">
+                    <img src="./Media/burger.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">Barbecue Burger</a>
+                      </h3>
+  
+                      <span class="span title-2">Einzelpreis: 9.50€ Menü: 14.40€
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Cheddar Käse, Barbecuesauce, Salat, Gewürzgurken, Zwiebeln und Tomaten
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                    <img src="./Media/Luckys Burger_Chili-Cheese Burger.jpg" width="10" height="100" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">Chili-Cheeseburger (scharf)
+                        </a>
+                      </h3>
+
+                      <span class="span title-2">Einzelpreis: 9.50€ Menü: 14.40€
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Cheddar Käse, Hot Sauce und Jalapenos ,Salat, Gewürzgurken, Zwiebeln und Tomate
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Luckys Burger_Chicken Burger Menü.jpg" width="10" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Crunchy Chicken Burger</a>
+                    </h3>
+
+                    <span class="span title-2">Einzelpreis: 8.90€ Menü: 13.50€
+                    </span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    mit Crunchy 135g Chicken-Patty, Hausgemachter Burgersauce, Sweet-Chili-Sauce, Cheddar Käse, Salat, Gewürzgurken, Zwiebeln und Tomaten
+
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Veggie Burger Menü.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Veggie Burger</a>
+                    </h3>
+
+                    <span class="span title-2">Einzelpreis: 8.90€  Menü: 13.50€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    mit paniertem Gemüse-Patty, Hausgemachter Burgersauce, Cheddar Käse, Salat
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+          <a href="./Menu.html" class="btn btn-primary">
+            <span class="text text-1">Menü</span>
+
+            <span class="text text-2" aria-hidden="true">Menü</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Unser geschichte story</p>
+
+            <h2 class="headline-1 section-subtitle">Über uns</h2>
+
+            <p class="section-text">
+            Willkommen bei Lucky's Burger! Seit unserer Gründung im Jahr 2022 steht bei uns frische Qualität an erster Stelle. Wir sind ein leidenschaftliches Burger-Restaurant, das bestrebt ist, unseren Gästen unvergleichliche Geschmackserlebnisse zu bieten. Lassen Sie uns Ihnen erzählen, wie alles begann und was uns auszeichnet.
+Unsere Mission bei Lucky's Burger ist es, die besten Burger der Stadt anzubieten. Wir sind fest davon überzeugt, dass Qualität an erster Stelle steht, und daher wählen wir unsere Zutaten sorgfältig aus. Unsere Burger werden aus frischen, hochwertigen Produkten zubereitet, die von vertrauenswürdigen Lieferanten stammen. Vom saftigen Fleisch bis zu den knusprigen Brötchen und den frischen Belägen - bei uns schmeckt man den Unterschied.
+Unsere Speisekarte bietet eine vielfältige Auswahl an Burger-Kreationen
+            </p>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./Media/Wagen1.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <video src="./Media/brod.mp4" with="570" height="570" alt="brod" class="w-200" data-parallax-item></video>
+
+            <p class="brodpa">Bei Lucky's Burger legen wir großen Wert auf Qualität und Geschmack. Deshalb werden unsere Burger-Brötchen jeden Tag frisch gebacken und anschließend zu uns geliefert. Wir glauben fest daran, dass ein guter Burger nicht nur aus hochwertigem Fleisch und frischen Zutaten besteht, sondern auch ein Brötchen von höchster Qualität erfordert.
+
+              Unsere Bäckermeister verwenden sorgfältig ausgewählte Zutaten und traditionelle Backtechniken, um sicherzustellen, dass jedes Brötchen perfekt aufgeht, eine leichte Kruste erhält und innen weich und luftig ist. Wir legen großen Wert auf den Geschmack und die Textur unserer Brötchen, denn sie sind die Grundlage für ein unvergessliches Burger-Erlebnis.
+              
+              Indem wir täglich frische Brötchen verwenden, können wir sicherstellen, dass unsere Kunden immer den besten Geschmack und die beste Qualität genießen. Jeder Bissen ist ein Genuss, und die Frische und Zartheit unserer Brötchen ergänzen perfekt den saftigen Geschmack unserer Burger-Patties und die Vielfalt unserer hausgemachten Saucen und Toppings.
+              
+              Besuchen Sie uns bei Lucky's Burger und lassen Sie sich von unseren köstlichen Burgern überzeugen, bei denen die frisch gebackenen Brötchen das i-Tüpfelchen sind. Wir freuen uns darauf, Ihnen ein unvergessliches Geschmackserlebnis zu bieten!</p>
+
+<!--
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./Media/Yassin xD.png" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+          -->
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      
+        - #SPECIAL DISH
+      
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Hero1.jpg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">monate's Burger </p>
+
+            <h2 class="headline-1 section-title">Mo Special</h2>
+
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the
+              industrys standard dummy text ever since the when an unknown printer took a galley of type.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">15.00€</del>
+
+              <span class="span body-1">10.00€</span>
+
+              <a href="https://lieferbaer.de/productListing/161" class="btn btn-primary">
+                <span class="text text-1">Bestell jetzt</span>
+  
+                <span class="text text-2" aria-hidden="true">Bestell jetzt</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+        
+
+
+
+
+      
+       
+        - #EVENT
+      
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+          <h2 class="section-title headline-1 text-center">Neu Events</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./Media/Burger spy.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">15/09/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Burger Party</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Kostenlose Getränke oder so 
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./Media/burger.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">08/09/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Healthy Food</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Burgers mit viel Eiweiß
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./Media/Luckys Burger_Chicken Burger Menü.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">03/09/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Mach Dein Burger selbst</p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+-->
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+      <!-- 
+        - #KONTACKT
+      -->
+
+      <section class="reservation" id="contact">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form  action="https://api.web3forms.com/submit" method="POST" class="form-left">
+              
+              <input type="hidden" name="access_key" value="9220b4d0-b644-48e3-b055-f0f9ce206036" />
+              <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+              <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+              <h2 class="headline-1 text-center">Hast du noch fragen ?</h2>
+
+              <p class="form-text text-center">
+                denn schribe uns gerne 
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" id="name" name="name" placeholder="Name" autocomplete="off" class="input-field" required>
+
+                <input type="tel" id="phone" name="phone" placeholder="Telephone Nummer" autocomplete="off" class="input-field">
+
+                <input type="text" id="subject" name="subject" placeholder="Thema" autocomplete="off" class="input-field">
+
+                <input type="email" id="email" name="email" placeholder="Email" autocomplete="off" class="input-field" required>
+              </div>
+
+                
+
+              <textarea id="message" name="message6" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">senden</span>
+
+                <span class="text text-2" >senden</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Kontaktier uns</h2>
+
+              <p class="contact-label">Telephonisch Beschtellen</p>
+
+             <a href="tel:info@luckys-burger.de">
+              <p class="body-1 contact-number hover-underline">+49 178 8162898</p>
+            </a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                Casterfeldstraße 108-120,<br>
+                68199 Mannheim
+              </address>
+             
+              <p class="contact-label">Öffnungszeiten</p>
+
+              <address class="body-4">
+                Di-Fr 11.00-14.00 Uhr und 17.00-22.00 Uhr<br>
+                Sa+So 15.00-22.00 Uhr
+              </address>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Why Choose Us</p>
+
+          <h2 class="headline-1 section-title">Our Strength</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Hygienic Food</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Fresh Environment</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Skilled Chefs</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Event & Party</h3>
+
+                <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+      -->
+
+
+
+
+      
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="./index.html" class="logo">
+            <img src="Lucky Burger Icon.jpg" width="160" height="50" loading="lazy">
+          </a>
+
+          <address class="body-4">
+            Casterfeldstraße 108-120, 68199 Mannheim
+          </address>
+
+          <a href="mailto:info@luckys-burger.de" class="body-4 contact-link">info@luckys-burger.de</a>
+
+          <a href="tel:+49 178 8162898" class="body-4 contact-link">Telephonisch Beschtellen  : +49 176 80592654</a>
+
+          <p class="body-4">
+            Öffnungszeiten: Mo-Ruhetag
+            Di-Fr 11.00-14.00 Uhr und 17.00-22.00 Uhr Sa+So 15.00-22.00 Uhr
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="https://www.instagram.com/burger.luckys/" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+
+          <li>
+            <a href="https://goo.gl/maps/CHG7KUthhNGKUtK9A?coh=178572&entry=tt" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 Lucky's Burger. All Rights Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+
+</body>
+
+</html>

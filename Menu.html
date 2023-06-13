@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Lucky's burger</title>
+  <meta name="title" content="Lucky's burger - Amazing & Delicious Burgers">
+  <meta name="author" content="This is a Restaurant html template made by Hamdi Mhamdi">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="assets/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!--pre loader with same google font
+    - #PRELOADER-->
+  
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Lucky's burger</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+            Casterfeldstraße 108-120, 68199 Mannheim
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+            Di-Fr 11.00-14.00 Uhr und 17.00-22.00 Uhr Sa+So 15.00-22.00 Uhr
+        </span>
+      </div>
+
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+49 178 8162898</span>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">info@luckys-burger.de</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="./index.html" class="logo">
+        <img src="Lucky Burger Icon.jpg" width="100" height="50">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="Lucky Burger Icon.jpg" width="100" height="50">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="./index.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./Menu.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menu</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Über uns</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">kontakt</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Casterfeldstraße 108-120, <br>
+            68199 Mannheim
+          </address>
+
+          <p class="body-4 navbar-text">Öffnungszeiten:
+            Di-Fr 11.00-14.00 Uhr und 17.00-22.00 Uhr Sa+So 15.00-22.00 Uhr</p>
+
+        </div>
+
+      </nav>
+
+      <a href="https://lieferbaer.de/productListing/161" class="btn btn-secondary">
+        <span class="text text-1">Bestell jetzt</span>
+
+        <span class="text text-2" aria-hidden="true">Bestell jetzt
+            
+        </span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Hamburger</p>
+
+          <h2 class="headline-1 section-title text-center">klassisch</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Burger spy.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Hamburger</a>
+                    </h3>
+
+                    <span class="span title-2">Einzelpreis: 8.50€ Menü: 13.80€
+
+                    </span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Salat, Gewürzgurken, Zwiebeln und Tomaten
+
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                    <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Cheeseburger Menü.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">Cheeseburger
+                        </a>
+                      </h3>
+  
+                      <span class="span title-2">Einzelpreis: 9.00€ Menü: 14.50€
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Cheddar Käse, Salat, Gewürzgurken, Zwiebeln und Tomaten.
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+          </ul>
+
+              <h2 class="headline-1 section-title text-center">Special</h2>
+
+            <ul class="grid-list">
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 1; --height: 1;">
+                    <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Luckys Burger Menü.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">Luckys Burger</a>
+                      </h3>
+  
+                      <span class="span title-2">Einzelpreis: 10.90€ Menü: 16.40€
+
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Cheddar Käse, Rinderbacon und Karamellisierten Zwiebeln, Salat, Gewürzgurken und Tomaten
+                      
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 1; --height: 1;">
+                    <img src="./Media/Luckys Burger_Gorgonzola Burger Menü.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">Gorgonzola Burger</a>
+                      </h3>
+  
+                      <span class="span title-2">Einzelpreis: 10.90€ Menü: 16.40€
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Rucola und Karamellisierten Zwiebeln, Salat, Gewürzgurken und Tomaten
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 50px; --height: 50px;">
+                    <img src="./Media/Turkische Burger.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">Turkish Burger</a>
+                      </h3>
+  
+                      <span class="span title-2">Einzelpreis: 10.90€ Menü: 16.40€
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Knoblauchwurst, Cheddar Käse, Curryketchup, Salat, Gewürzgurken, Zwiebeln und Tomaten
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 50px; --height: 50px;">
+                    <img src="./Media/Luckys Burger_El-Greco Burger.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">El Greco Burger</a>
+                      </h3>
+  
+                      <span class="span title-2">Einzelpreis: 10.90€ Menü: 16.40€
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Hirtenkäse, Peperoni, Cremesauce, Salat, Gewürzgurken, Zwiebeln und Tomaten
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 50; --height: 50;">
+                    <img src="./Media/burger.jpg" width="50px" height="50px" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">Barbecue Burger</a>
+                      </h3>
+  
+                      <span class="span title-2">Einzelpreis: 9.50€ Menü: 14.40€
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Cheddar Käse, Barbecuesauce, Salat, Gewürzgurken, Zwiebeln und Tomaten
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                    <img src="./Media/Luckys Burger_Chili-Cheese Burger.jpg" width="10" height="100" loading="lazy" alt="Greek Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a class="card-title">Chili-Cheeseburger (scharf)
+                        </a>
+                      </h3>
+
+                      <span class="span title-2">Einzelpreis: 9.50€ Menü: 14.40€
+                      </span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      mit 150g 100% Rindfleisch (Halal), Hausgemachter Burgersauce, Cheddar Käse, Hot Sauce und Jalapenos ,Salat, Gewürzgurken, Zwiebeln und Tomate
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Luckys Burger_Chicken Burger Menü.jpg" width="10" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Crunchy Chicken Burger</a>
+                    </h3>
+
+                    <span class="span title-2">Einzelpreis: 8.90€ Menü: 13.50€
+                    </span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    mit Crunchy 135g Chicken-Patty, Hausgemachter Burgersauce, Sweet-Chili-Sauce, Cheddar Käse, Salat, Gewürzgurken, Zwiebeln und Tomaten
+
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Veggie Burger Menü.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Veggie Burger</a>
+                    </h3>
+
+                    <span class="span title-2">Einzelpreis: 8.90€  Menü: 13.50€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    mit paniertem Gemüse-Patty, Hausgemachter Burgersauce, Cheddar Käse, Salat
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+            <h2 class="headline-1 section-title text-center">Hot Dogs</h2>
+
+          <ul class="grid-list">
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Classic Dog.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Classic Dog</a>
+                    </h3>
+
+                    <span class="span title-2">Einzelpreis: 8.50€ Menü: 13.80€</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Classic Dog.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Barbecue Dog</a>
+                    </h3>
+
+                    <span class="span title-2">Einzelpreis: 8.50€ Menü: 13.80€</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Classic Dog.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Chilli Dog</a>
+                    </h3>
+
+                    <span class="span title-2">Einzelpreis: 8.50€ Menü: 13.80€</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+            <h2 class="headline-1 section-title text-center">Warps</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Warps.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Italiano Wrap(pikant)</a>
+                    </h3>
+
+                    <span class="span title-2">Einzelpreis: 7.50€  Menü: 12.50€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    mit Crispy Chicken, Rucola, getrockeneten Tomaten, Parmesan und Pikanter Dillsauce
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Warps.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Beff Warp(pikant)</a>
+                    </h3>
+
+                    <span class="span title-2">Einzelpreis: 7.50€  Menü: 12.50€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    mit Rindfleisch, Salat, Roten Zwiebeln, Tomaten und Pikanter Dillsauce
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Warps.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Falafel Warps</a>
+                    </h3>
+
+                    <span class="span title-2">Einzelpreis: 6.50€  Menü: 11.50€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    mit Falafel, Salat, Roten Zwiebeln, Tomaten und Hummus
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+            <h2 class="headline-1 section-title text-center">Snacks</h2>
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Pommes Frites.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Pommes frites</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 3.50€</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Mozarella Sticks.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Mozareller Sticks</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 4.90€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    (6Stück)
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Crispy Chicken Fingers.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Crispy Chicken Fingers</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 5.50€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    (6Stück)
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Hero1.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Coleslaw</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 2,90€</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Süßkartoffel Pommes Frites.webp" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Süßkartoffel Pommes Frites</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 3.90€</span>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Chili-Cheese Nuggets.jpg" width="10" height="100" loading="lazy" alt="Chili-Cheese Nuggets"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Chili-Cheese Nuggets</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 4.90€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    (6Stück)
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Chicken_Nuggets.jpg" width="10" height="100" loading="lazy" alt="Chicken Nuggets"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Chicken Nuggets</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 4.90€</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    (6Stück)
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/ketchup-and-mayo.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Ketchup/Mayonaise</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 0.50€</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+            <h2 class="headline-1 section-title text-center">Desert</h2>
+
+            <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Milka Daim Donut.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Donut mit Milka und Dalm</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 3€</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/quality=90-max_weight=9500/Luckys Burger_Pinky Donut.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Pinky Donut</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 3€</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            </ul>
+            <h2 class="headline-1 section-title text-center">Getränke</h2>
+
+            <ul class="grid-list">
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Getränke.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Coca-Cola, Coca-Cola Zero Sugar, Fanta Orange, Mezzo Mix, Sprite, Fuze Tea Schwarzer Tee Zitrone, Fuze Tea Schwarzer Tee Pfirsich</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 2.90€</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/water.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">VIO still 0,51/VIO spritzig 0,51</a>
+                    </h3>
+
+                    <span class="span title-2">Prise : 2.50€</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Red bull.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Red Bull</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 3.20€</span>
+                  </div>
+
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder menu-photo" style="--width: 100; --height: 100;">
+                  <img src="./Media/Ayran.jpg" width="10" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a class="card-title">Ayran 0,25ml</a>
+                    </h3>
+
+                    <span class="span title-2">Prise: 2.00€</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+
+
+          </ul>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+        <!--FOOTER-->
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="./index.html" class="logo">
+            <img src="Lucky Burger Icon.jpg" width="160" height="50" loading="lazy">
+          </a>
+
+          <address class="body-4">
+            Casterfeldstraße 108-120, 68199 Mannheim
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">info@luckys-burger.de</a>
+
+          <a href="tel:+88123123456" class="body-4 contact-link">Telephonisch Beschtellen  : +49 176 80592654</a>
+
+          <p class="body-4">
+            Öffnungszeiten: Mo-Ruhetag
+            Di-Fr 11.00-14.00 Uhr und 17.00-22.00 Uhr Sa+So 15.00-22.00 Uhr
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="https://www.instagram.com/burger.luckys/" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+
+          <li>
+            <a href="https://goo.gl/maps/CHG7KUthhNGKUtK9A?coh=178572&entry=tt" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 Lucky's Burger. All Rights Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+<!-- 
+  - #BACK TO TOP
+-->
+
+<a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+  <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+</a>
+
+
+
+
+
+<!-- 
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!-- 
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
