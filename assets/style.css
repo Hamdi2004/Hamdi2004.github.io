@@ -892,6 +892,10 @@ body.nav-active { overflow: hidden; }
 
 .hero-title{
   width: 100%;
+  bottom: 200px;
+  position: relative;
+   
+  
 }
 
 .hero .slider-item {
@@ -1661,6 +1665,7 @@ textarea.input-field {
   .hero-title {
     max-width: 100%;
     height: auto;
+    
   }
 
   /**
@@ -2063,6 +2068,8 @@ textarea.input-field {
    .hero-title {
     max-width: 100%;
     height: auto;
+    
+
   }
 
   /**
@@ -2124,3 +2131,4 @@ textarea.input-field {
   }
 
 }
+
