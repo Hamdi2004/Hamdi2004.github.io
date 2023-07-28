@@ -891,7 +891,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .hero-title{
-  width: 100%;
+  width: 1500px;
   bottom: 200px;
   position: relative;
    
@@ -1396,6 +1396,162 @@ textarea.input-field {
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+
+/**
+ * responsive for larger than 350px screen
+ */
+
+ @media (min-width: 350px) {
+
+  /**
+   * CUSTOM PROPERTY
+   */
+
+  :root {
+
+    /**
+     * typography
+     */
+
+    --fontSize-body-2: 2rem;
+
+  }
+
+
+
+  /**
+   * REUSED STYLE
+   */
+
+  :is(.service, .about) .section-text {
+    max-width: 420px;
+    margin-inline: auto;
+  }
+
+  .contact-number { --fontSize-body-1: 3rem; }
+
+
+
+  /**
+   * HEADER
+   */
+
+  .header { top: 10px; }
+
+  .header.active { top: 0; }
+
+
+
+  /**
+   * HERO
+   */
+
+  .hero-btn { transform: scale(0.7); }
+
+  .hero-title {
+    max-width: 500px;
+    height: auto;
+  }
+
+
+
+  /**
+   * SERVICE
+   */
+
+  .service .container {
+    max-width: 420px;
+    margin-inline: auto;
+  }
+
+
+
+  /**
+   * ABOUT
+   */
+
+  .about .container { gap: 80px; }
+
+  .about-banner > .w-100 .w-200 { padding-inline-start: 90px; }
+
+  .about .abs-img-1 { width: 285px; }
+
+  .about .contact-number { --fontSize-body-1: 2.4rem; }
+
+  .read-more {text-align: center; }
+
+
+
+  /**
+   * MENU
+   */
+
+  .menu-card .title-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .menu-card .badge { margin-block-start: 0; }
+
+  .menu-card .span {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+  }
+
+  .menu-card .span::before {
+    content: "";
+    height: 6px;
+    flex-grow: 1;
+    border-block: 1px solid var(--white-alpha-20);
+  }
+
+
+
+  /**
+   * EVENT
+   */
+
+  .event .container {
+    max-width: 420px;
+    margin-inline: auto;
+  }
+
+
+
+  /**
+   * FOOTER
+   */
+
+  .footer-brand > * {
+    max-width: 460px;
+    margin-inline: auto;
+  }
+
+  .footer .input-wrapper { position: relative; }
+
+  .footer .input-field {
+    margin-block-end: 0;
+    padding-inline-end: 205px;
+  }
+
+  .footer-brand .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: max-content;
+  }
+
+}
+
+
+
+
 
 /**
  * responsive for larger than 575px screen
@@ -2131,4 +2287,3 @@ textarea.input-field {
   }
 
 }
-
