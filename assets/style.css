@@ -364,6 +364,31 @@ body.nav-active { overflow: hidden; }
   opacity: 1;
 }
 
+.hover-underline4 {
+  position: relative;
+  max-width: max-content;
+}
+
+.hover-underline4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  border-block: 1px solid #cb6982;
+  transform: scaleX(0.2);
+  opacity: 0;
+  transition: var(--transition-2);
+}
+
+
+.hover-underline4:is(:hover, :focus-visible)::after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
+
 .contact-number::after { bottom: -5px; }
 
 .text-center { text-align: center; }
@@ -822,6 +847,10 @@ body.nav-active { overflow: hidden; }
   color: #cb6982;
 }
 
+.navbar-link:is(:hover, :focus-visible, .active) .span4 {
+  color: #cb6982;
+}
+
 .navbar-link .separator {
   position: absolute;
   top: 50%;
@@ -1005,6 +1034,30 @@ body.nav-active { overflow: hidden; }
 .hero .slider-item.active .hero-text { animation-delay: 1.5s; }
 
 .hero .slider-item.active .btn { animation-delay: 2s; }
+
+/*-----------------------------------*\
+  #VIDEO
+\*-----------------------------------*/
+
+/* Style the video container */
+.video-container {
+  width: 600px; /* Adjust the width to your desired size */
+  height: 600px; /* Make it square by setting the same height as the width */
+  border-radius: 20px; /* Adjust the border-radius to control corner roundness */
+  overflow: hidden; /* Ensure video corners are rounded even if the video doesn't fill the container */
+  position: relative; /* Needed for absolute positioning of video */
+}
+
+/* Style the video inside the container to cover it entirely */
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain video aspect ratio and cover the container */
+}
+
+
+
+ 
 
 
 /*-----------------------------------*\
@@ -1464,7 +1517,18 @@ textarea.input-field {
     margin-inline: auto;
   }
 
+  /**
+   * video
+   */
 
+  .video-container{
+    width: 100%;
+  }
+
+
+ 
+   .read-more {text-align: center; }
+ 
 
   /**
    * ABOUT
