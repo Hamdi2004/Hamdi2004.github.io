@@ -1535,6 +1535,10 @@ textarea.input-field {
    * ABOUT
    */
 
+    .w-101{
+    width: 100%;
+   }
+
   .about .container { gap: 80px; }
 
   .about-banner > .w-100 .w-200 { padding-inline-start: 90px; }
