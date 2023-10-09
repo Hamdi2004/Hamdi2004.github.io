@@ -544,7 +544,8 @@ body.nav-active { overflow: hidden; }
 }
 
 .w-100 {
-  width: 100%;
+  width: 150%;
+  height: 100%
 }
 
 .w-200 {
