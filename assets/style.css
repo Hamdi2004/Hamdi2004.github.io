@@ -564,12 +564,14 @@ body.nav-active { overflow: hidden; }
 .w-200 {
   
   width: 1000px;
-  
-
-
-  
 
 }
+
+.w-102{
+
+  width: 30%;
+}
+
 
 .move-anim { animation: move 5s linear infinite; }
 
@@ -1551,6 +1553,18 @@ textarea.input-field {
   /**
    * ABOUT
    */
+
+   .section-subtitle1{
+    position: relative;
+    left: 8px;
+    font-size: 100%; 
+  }
+
+  .w-102{
+    position: relative;
+    left: 88px;
+    width: 50%;
+   }
    
    .w-101{
     width: 100%;
@@ -1747,7 +1761,6 @@ textarea.input-field {
     max-width: 100%;
     height: auto;
   }
-
 
 
   /**
