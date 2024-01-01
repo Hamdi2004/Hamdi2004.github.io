@@ -421,14 +421,6 @@ body.nav-active { overflow: hidden; }
   margin-block-end: 12px;
 }
 
-.section-subtitle::after {
-  content: url('../images/separator.svg');
-  display: block;
-  width: 100px;
-  margin-inline: auto;
-  margin-block-start: 5px;
-}
-
 .btn {
   position: relative;
   color: var(--gold-crayola);
@@ -989,7 +981,7 @@ body.nav-active { overflow: hidden; }
   100% { transform: scale(1.15); }
 }
 
-.hero .section-subtitle::after { margin-block: 14px 20px; }
+.hero { margin-block: 14px 20px; }
 
 .hero-text { margin-block: 10px 40px; }
 
